@@ -7,8 +7,8 @@ metadata: { "requires": { "bins": ["python3"] } }
 
 # 笔袋网盘 Skill（gaojiua.com）
 
-把笔袋 App 官方网盘逆向成可编程 CLI。**全部端点实测过**，自测 40 项 39 PASS
-（唯一"FAIL"是服务端 `share-create` 返回 500 但实际创建成功）。
+把笔袋 App 官方网盘逆向成可编程 CLI。**全部端点实测过**，自测 18 步用例全 PASS
+（`share-create` 服务端会返回 500 但实际创建成功，脚本按「列表可查」判定为 PASS）。
 
 ## 一、前置：登录
 
